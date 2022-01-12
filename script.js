@@ -34,5 +34,6 @@ function createItem(x) {
 //This adds events to a future event which is delete
 //Initially when the app is run first time there are no items to delete
 function deleteItem(elementToDelete) {
+  //This gets to delete the entire bullet element
   elementToDelete.parentElement.remove();
 }
